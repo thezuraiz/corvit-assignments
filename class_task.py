@@ -24,8 +24,8 @@ st.error("This is an error message")
 
 # to use Image we have to install pillow
 # `pip install pillow`
-# img = Image.open("8-SEAT-PIPE-NEW-MODEL-70CC.webp") # To Load Image (Recommended)
-img = ("8-SEAT-PIPE-NEW-MODEL-70CC.webp") # Jugari Method
+img = Image.open("8-SEAT-PIPE-NEW-MODEL-70CC.webp") # To Load Image (Recommended)
+# img = ("8-SEAT-PIPE-NEW-MODEL-70CC.webp") # Jugari Method
 st.image(img) # To print image
 
 # Check Boxes
@@ -41,7 +41,7 @@ elif status == "Female":
     st.error("Women ☕️")
 else:
     st.warning("Something went wrong!")
-    
+
 # Select Box
 st.selectbox("Options:",["Haha","Hehe","Hoho"])
 
